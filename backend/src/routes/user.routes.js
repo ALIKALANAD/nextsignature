@@ -1,6 +1,6 @@
 const exprss = require("express");
 const router = exprss.Router();
-const userController = require("../controller/user");
+const userController = require("../controller/web/auth.controller");
 
 
 router.post("/signup",  userController.Signup);
